@@ -1,6 +1,7 @@
 import {Header} from "./components/Header"
 import {MainArticle} from "./components/MainArticle"
 import { NewContainer } from "./components/NewContainer"
+import { ArticleContainer } from "./components/ArticleContainer"
 
 function App() {
 
@@ -10,6 +11,10 @@ function App() {
         <div className="sm:flex  sm:gap-8">
           <MainArticle/>
           <NewContainer/>
+          
+        </div>
+        <div className="sm:flex">
+          <ArticleContainer/>
         </div>
     </main>
   )

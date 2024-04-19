@@ -13,7 +13,7 @@ export const NewContainer = () => {
             text='Tenemos nuevos descuentos de mas de 40% en el precio de todos los productos'
         />
         <NewArticle
-            title='Nuevas Menbresías para Clientes'
+            title='Nuevas Membresías para Clientes'
             text='Ahora con la nueva membresía, podrás tener credito de hasta $50,000 mx'
         />
     </aside>
