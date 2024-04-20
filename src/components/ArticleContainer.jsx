@@ -7,7 +7,7 @@ import { Article } from "./Article";
 
 export const ArticleContainer = () => {
   return (
-    <aside>
+    <section className='mt-6 md:flex md:flex-wrap'>
         <Article
             image={Pc}
             title='01'
@@ -26,6 +26,6 @@ export const ArticleContainer = () => {
             subtitle='Juegos.'
             text='Videojuegos con equipos de consola de ultima generacion para que tengas la mejor experiencia.'
         />
-    </aside>
+    </section>
   )
 }
